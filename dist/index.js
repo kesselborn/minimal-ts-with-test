@@ -1,4 +1,4 @@
-import { app } from "./server.js"; // <-- yes: relative imports need `.js` extension ... typescript handles this correctly
+import { app } from "./server";
 const port = 3000;
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);

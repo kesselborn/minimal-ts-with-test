@@ -10,8 +10,6 @@ Minimal template that checks the following things:
 - testing works with jest
 - commit hook that builds TypeScript before commiting
 
-**Note**: relative imports need the `.js` extension (even though the TypeScript files have a `.ts.` exension)
-
 ## Commands
 
 ... the usual:
